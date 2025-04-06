@@ -39,7 +39,8 @@ public class TranskripNilai {
     public void display() {
         System.out.println(mahasiswa.display());
         System.out.println("Tanggal Cetak: " + tglCetak.toString());
-        System.out.println("IPK: " + ipk);
+        // System.out.println("IPK: " + ipk);
+        System.out.printf("IPK: %.2f\n", ipk);
 
         for (Semester semester : daftarSemester) {
             System.out.println(semester.display());
