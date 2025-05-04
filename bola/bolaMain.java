@@ -6,7 +6,7 @@ public class bolaMain {
         myBall.showColor();
         myBall.showSize();
         myBall.showMoveStatus();
-        myBall.move();
+        myBall.moveStatus();
         myBall.showMoveStatus();
         myBall.stop();
         myBall.showMoveStatus();
