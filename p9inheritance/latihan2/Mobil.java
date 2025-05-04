@@ -4,9 +4,9 @@ public class Mobil {
     protected String merk;
     protected int tahun;
 
-    public void Mobil () {
-       merk = "Honda Brio";
-       tahun = 2019 ;
+    public Mobil() {
+       merk = "Tidak diketahui";
+       tahun = 0 ;
     }
 
     public String getMerk(){

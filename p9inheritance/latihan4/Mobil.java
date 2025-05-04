@@ -2,9 +2,9 @@ package latihan4;
 
 public class Mobil {
     protected String merk;
-    protected int tahun;
+    protected String tahun;
 
-    public Mobil(String merk, int tahun) {
+    public Mobil(String merk, String tahun) {
         this.merk = merk;
         this.tahun = tahun;
     }
@@ -13,7 +13,7 @@ public class Mobil {
         return merk;
     }
 
-    public int getTahun(){
+    public String getTahun(){
         return tahun;
     }
 }
