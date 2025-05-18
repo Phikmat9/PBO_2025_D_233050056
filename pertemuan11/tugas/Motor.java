@@ -12,13 +12,13 @@ public class Motor extends Kendaraan implements Klakson {
     // Implementasi method abstrak bergerak
     @Override
     public void bergerak() {
-        System.out.println(nama + " melaju di gang kecil.");
+        System.out.println(nama + " bergerak menggunakan roda 2.");
     }
 
     // Implementasi method dari interface Klakson
     @Override
     public void bunyiKlakson() {
-        System.out.println("Klakson motor: Beep Beep!");
+        System.out.println("Klakson motor: tinittt!");
     }
 }
 

@@ -4,7 +4,7 @@ package tugas; //pertemuan 11
 public class Main {
     public static void main(String[] args) {
         // Membuat objek Mobil dan menyimpannya sebagai tipe Kendaraan
-        Kendaraan kendaraan1 = new Mobil("Toyota");
+        Kendaraan kendaraan1 = new Mobil("Toyota Camry");
         kendaraan1.bergerak(); // Memanggil method bergerak()
 
         // Melakukan cast ke interface Klakson agar bisa memanggil bunyiKlakson()
@@ -13,7 +13,7 @@ public class Main {
         System.out.println(); // Baris kosong
 
         // Membuat objek Motor dan menyimpannya sebagai tipe Kendaraan
-        Kendaraan kendaraan2 = new Motor("Yamaha");
+        Kendaraan kendaraan2 = new Motor("Yamaha R1");
         kendaraan2.bergerak(); // Memanggil method bergerak()
 
         // Memanggil method bunyiKlakson melalui cast

@@ -12,12 +12,12 @@ public class Mobil extends Kendaraan implements Klakson {
     // Implementasi method abstrak bergerak
     @Override
     public void bergerak() {
-        System.out.println(nama + " bergerak di jalan tol.");
+        System.out.println(nama + " bergerak menggunakan roda 4.");
     }
 
     // Implementasi method dari interface Klakson
     @Override
     public void bunyiKlakson() {
-        System.out.println("Klakson mobil: Tiiin Tiiin!");
+        System.out.println("Klakson mobil: beep beep");
     }
 }
