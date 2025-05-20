@@ -12,6 +12,14 @@ public class Main {
 
         System.out.println(); // Baris kosong
 
+        Kendaraan kendaraan3 = new Tank("Tank baja");
+        kendaraan3.bergerak(); // Memanggil method bergerak()
+
+        // Melakukan cast ke interface Klakson agar bisa memanggil bunyiKlakson()
+        ((Klakson) kendaraan3).bunyiKlakson();
+
+        System.out.println(); // Baris kosong
+
         // Membuat objek Motor dan menyimpannya sebagai tipe Kendaraan
         Kendaraan kendaraan2 = new Motor("Yamaha R1");
         kendaraan2.bergerak(); // Memanggil method bergerak()
